@@ -2,7 +2,7 @@
 Contributors: vispa, mnbp1371
 Tags: learnpress, payment, idpay, gateway, آیدی پی
 Stable tag: 1.0.0
-Tested up to: 5.2
+Tested up to: 5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,5 +32,5 @@ Thank you so much for using IDPay Payment Gateway.
 
 == Changelog ==
 
-= 1.0, July 14, 2020 =
+= 1.0.0, July 14, 2020 =
 * First release.
