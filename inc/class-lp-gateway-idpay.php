@@ -425,12 +425,20 @@ if (!class_exists('LP_Gateway_IDPay')) {
      */
     public function web_hook_process_idpay()
     {
-      $status = sanitize_text_field($_POST['status']);
-      $id = sanitize_text_field($_POST['id']);
-      $order_id = sanitize_text_field($_POST['order_id']);
-      $amount = sanitize_text_field($_POST['amount']);
-      $card_no = sanitize_text_field($_POST['card_no']);
-      $date = sanitize_text_field($_POST['date']);
+      // Check method post or get
+      $method = $_SERVER['REQUEST_METHOD'];
+      if ($method == 'POST') {
+        $status = sanitize_text_field($_POST['status']);
+        $track_id = sanitize_text_field($_POST['track_id']);
+        $id = sanitize_text_field($_POST['id']);
+        $order_id = sanitize_text_field($_POST['order_id']);
+      }
+      elseif ($method == 'GET') {
+        $status = sanitize_text_field($_GET['status']);
+        $track_id = sanitize_text_field($_GET['track_id']);
+        $id = sanitize_text_field($_GET['id']);
+        $order_id = sanitize_text_field($_GET['order_id']);
+      }
 
       //Check id or order_id is empty
       if (empty($id) || empty($order_id)) {
