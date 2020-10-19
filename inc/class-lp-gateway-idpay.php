@@ -4,7 +4,7 @@
  *
  * @author   IDPay
  * @package  LearnPress/IDPay/Classes
- * @version  1.0.0
+ * @version  1.0.1
  */
 
 // Prevent loading this file directly
@@ -641,7 +641,7 @@ if (!class_exists('LP_Gateway_IDPay')) {
         case "3":
           $msg = __("An error has occurred. code:", 'learnpress-idpay');
           break;
-        case "3":
+        case "4":
           $msg = __("Blocked. code:", 'learnpress-idpay');
           break;
         case "5":
