@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: LearnPress - IDPay Payment
+Plugin Name: IDPay Payment - LearnPress
 Plugin URI: http://idpay.ir/
 Description: IDPay payment gateway for LearnPress.
 Author:IDPay
