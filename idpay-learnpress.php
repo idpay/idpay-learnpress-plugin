@@ -4,7 +4,7 @@ Plugin Name: IDPay Payment - LearnPress
 Plugin URI: http://idpay.ir/
 Description: IDPay payment gateway for LearnPress.
 Author:IDPay
-Version: 1.0.0
+Version: 1.0.1
 Author URI: https://github.com/idpay/
 Tags: learnpress, idpay
 Text Domain: learnpress-idpay
@@ -15,8 +15,8 @@ Domain Path: /languages/
 defined( 'ABSPATH' ) || exit;
 
 define( 'LP_ADDON_IDPAY_PAYMENT_FILE', __FILE__ );
-define( 'LP_ADDON_IDPAY_PAYMENT_VER', '1.0.0' );
-define( 'LP_ADDON_IDPAY_PAYMENT_REQUIRE_VER', '1.0.0' );
+define( 'LP_ADDON_IDPAY_PAYMENT_VER', '1.0.1' );
+define( 'LP_ADDON_IDPAY_PAYMENT_REQUIRE_VER', '1.0.1' );
 
 /**
  * Class LP_Addon_IDPay_Payment_Preload
