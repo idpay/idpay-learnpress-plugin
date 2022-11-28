@@ -30,9 +30,12 @@ You can obtain the API Key by going to your [dashboard](https://idpay.ir/dashboa
 
 == 1.1.0, Nov 13, 2022 ==
 * Tested Up With Wordpress 6.1 And LearnPress 4.1.7.3.2
+* Check Double Spending Correct
+* Check Does Not Xss Attack Correct
+* First Official Release
 
 == 1.0.1, October 19, 2020 ==
 * Support GET method in Callback.
 
 == 1.0.0, July 14, 2020 ==
-* First release.
+* Develope release.
