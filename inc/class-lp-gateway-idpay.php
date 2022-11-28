@@ -4,7 +4,7 @@
  *
  * @author   IDPay
  * @package  LearnPress/IDPay/Classes
- * @version  1.0.1
+ * @version  1.1.0
  */
 
 // Prevent loading this file directly
